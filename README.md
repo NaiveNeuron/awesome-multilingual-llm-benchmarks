@@ -4,7 +4,9 @@ A curated list of multilingual and/or non-English benchmarks for Large Language 
 
 ## Language-specific Benchmarks
 
-### Multilingual Foundational Language Understanding Benchmarks
+### Foundational Language Understanding Benchmarks
+
+#### Multilingual
 
 *These benchmarks cover multiple languages and focus on core linguistic competencies such as syntax, semantics, natural language inference, sentiment analysis, named entity recognition, and other fundamental language processing capabilities across different language families.*
 
@@ -15,7 +17,7 @@ A curated list of multilingual and/or non-English benchmarks for Large Language 
 |Indic Languages 🇮🇳|2024-11|[MILU: A Multi-task Indic Language Understanding Benchmark](https://arxiv.org/abs/2411.02538)|Text Classification, Natural Language Inference, Named Entity Recognition, Part-of-Speech Tagging, Sentiment Analysis|[[paper]](https://arxiv.org/abs/2411.02538)|
 |Turkic 🌐|2024-03|[Kardeş-NLU (Azeri, Kazakh, Kyrgyz, Uzbek, Uyghur)](https://aclanthology.org/2024.eacl-long.100.pdf)|NLI, STS, COPA|[[paper]](https://aclanthology.org/2024.eacl-long.100.pdf) [[data]](https://github.com/lksenel/Kardes-NLU)|
 
-### Single-Language Foundational Language Understanding Benchmarks  
+#### Single-Language
 
 *These benchmarks focus on core linguistic competencies for individual languages, testing syntax, semantics, natural language inference, sentiment analysis, named entity recognition, and other fundamental language processing capabilities.*
 
@@ -51,7 +53,7 @@ A curated list of multilingual and/or non-English benchmarks for Large Language 
 |Swedish 🇸🇪|2023-12|[Superlim: A Swedish Language Understanding Evaluation Benchmark](https://aclanthology.org/2023.emnlp-main.506/)|Absabank-Imm, Argumentation Sentences, DaLAJ-GED, SweParaphrase, SweDN, SweFAQ, SweNLI, SweWiC, SweWinograd, SuperSim, Swedish Analogy, SweSAT, SweDiagnostics, SweWinogender |[[paper]](https://aclanthology.org/2023.emnlp-main.506/)|
 |Vietnamese 🇻🇳|2024-06|[ViGLUE: A Vietnamese General Language Understanding Benchmark and Analysis of Vietnamese Language Models](https://aclanthology.org/2024.findings-naacl.261.pdf)|MNLI, QNLI, RTE, VNRTE, WNLI, SST2, VSFC, VSMEC, MRPC, QQP, CoLA, VToC|[[paper]](https://aclanthology.org/2024.findings-naacl.261.pdf) [[code]](https://github.com/trminhnam/ViGLUE) [[data]](https://huggingface.co/datasets/tmnam20/ViGLUE)|
 
-### Knowledge-Based Benchmarks
+### Holistic Benchmarks
 
 *These benchmarks focus on factual knowledge, domain expertise, curriculum-based assessments, and subject-matter competency. They test models' ability to recall and apply knowledge from specific academic domains, cultural contexts, or educational curricula.*
 
