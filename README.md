@@ -4,8 +4,20 @@ A curated list of multilingual and/or non-English benchmarks for Large Language 
 
 ## Language-specific Benchmarks
 
-### Foundational Language Understanding Benchmarks
-*These benchmarks focus on core linguistic competencies such as syntax, semantics, natural language inference, sentiment analysis, named entity recognition, and other fundamental language processing capabilities. They test how well models understand language structure and basic semantic relationships without requiring extensive world knowledge.*
+### Multilingual Foundational Language Understanding Benchmarks
+
+*These benchmarks cover multiple languages and focus on core linguistic competencies such as syntax, semantics, natural language inference, sentiment analysis, named entity recognition, and other fundamental language processing capabilities across different language families.*
+
+|Languages|Date|Title|Tasks|Links|
+|:---:|:---:|:---:|:---:|:---:|
+|African Languages 🌍|2023-11|[AfroBench: How Good are Large Language Models on African Languages?](https://arxiv.org/abs/2311.07978)|Sentiment Analysis, Topic Classification, Named Entity Recognition, Question Answering, Language Identification (64 languages, 15 tasks)|[[paper]](https://arxiv.org/abs/2311.07978)|
+|Cross-lingual SEA 🌏|2023-09|[BHASA: A Holistic Southeast Asian Linguistic and Cultural Evaluation Suite (Indonesian, Vietnamese, Thai, Tamil)](https://arxiv.org/abs/2309.06085)|Sentiment Analysis, Named Entity Recognition, Natural Language Inference, Part-of-Speech Tagging, Dependency Parsing|[[paper]](https://arxiv.org/abs/2309.06085)|
+|Indic Languages 🇮🇳|2024-11|[MILU: A Multi-task Indic Language Understanding Benchmark](https://arxiv.org/abs/2411.02538)|Text Classification, Natural Language Inference, Named Entity Recognition, Part-of-Speech Tagging, Sentiment Analysis|[[paper]](https://arxiv.org/abs/2411.02538)|
+|Turkic 🌐|2024-03|[Kardeş-NLU (Azeri, Kazakh, Kyrgyz, Uzbek, Uyghur)](https://aclanthology.org/2024.eacl-long.100.pdf)|NLI, STS, COPA|[[paper]](https://aclanthology.org/2024.eacl-long.100.pdf) [[data]](https://github.com/lksenel/Kardes-NLU)|
+
+### Single-Language Foundational Language Understanding Benchmarks  
+
+*These benchmarks focus on core linguistic competencies for individual languages, testing syntax, semantics, natural language inference, sentiment analysis, named entity recognition, and other fundamental language processing capabilities.*
 
 |Language|Date|Title|Tasks|Links|
 |:---:|:---:|:---:|:---:|:---:|
@@ -34,12 +46,13 @@ A curated list of multilingual and/or non-English benchmarks for Large Language 
 |Portuguese 🇵🇹🇧🇷|2024-04|[PORTULAN ExtraGLUE Datasets and Models](https://arxiv.org/abs/2404.05333)|SST-2, MRPC, STS-B, MNLI, QNLI, RTE, WNLI, BoolQ, MultiRC, CoPA |[[paper]](https://arxiv.org/abs/2404.05333)|
 |Romanian 🇷🇴|2021-12|[LiRo: Benchmark and Leaderboard for Romanian Language Tasks](https://openreview.net/pdf?id=JH61CD7afTv)|Document Classification, NER, Machine Translation, Sentiment Analysis, POS Tagging, Dependency Parsing, Language Modeling, QA, STS, Gender Debiasing|[[paper]](https://openreview.net/pdf?id=JH61CD7afTv) [[web]](https://lirobenchmark.github.io/)|
 |Russian 🇷🇺|2020-10|[RussianSuperGLUE](https://arxiv.org/abs/2010.15925)|Commonsense/COPA-like, RTE/NLI, QA, WSC-like, Paraphrase|[[paper]](https://arxiv.org/abs/2010.15925) [[ACL Anthology]](https://www.aclweb.org/anthology/2020.emnlp-main.381.pdf)|
+|Slovak 🇸🇰|2025-01|[skLEP: A Slovak General Language Understanding Benchmark](https://arxiv.org/abs/2506.21508)|Sentiment Analysis, NER, Text Classification, Paraphrase Detection, Word Sense Disambiguation|[[paper]](https://arxiv.org/abs/2506.21508)|
 |Slovenian 🇸🇮|2022-02|[Slovene SuperGLUE Benchmark: Translation and Evaluation](https://arxiv.org/abs/2202.04994)|BoolQ, CB, COPA, MultiRC, RTE, WSC|[[paper]](https://arxiv.org/abs/2202.04994)|
 |Swedish 🇸🇪|2023-12|[Superlim: A Swedish Language Understanding Evaluation Benchmark](https://aclanthology.org/2023.emnlp-main.506/)|Absabank-Imm, Argumentation Sentences, DaLAJ-GED, SweParaphrase, SweDN, SweFAQ, SweNLI, SweWiC, SweWinograd, SuperSim, Swedish Analogy, SweSAT, SweDiagnostics, SweWinogender |[[paper]](https://aclanthology.org/2023.emnlp-main.506/)|
-|Turkic 🌐|2024-03|[Kardeş-NLU (Azeri, Kazakh, Kyrgyz, Uzbek, Uyghur)](https://aclanthology.org/2024.eacl-long.100.pdf)|NLI, STS, COPA|[[paper]](https://aclanthology.org/2024.eacl-long.100.pdf) [[data]](https://github.com/lksenel/Kardes-NLU)|
 |Vietnamese 🇻🇳|2024-06|[ViGLUE: A Vietnamese General Language Understanding Benchmark and Analysis of Vietnamese Language Models](https://aclanthology.org/2024.findings-naacl.261.pdf)|MNLI, QNLI, RTE, VNRTE, WNLI, SST2, VSFC, VSMEC, MRPC, QQP, CoLA, VToC|[[paper]](https://aclanthology.org/2024.findings-naacl.261.pdf) [[code]](https://github.com/trminhnam/ViGLUE) [[data]](https://huggingface.co/datasets/tmnam20/ViGLUE)|
 
 ### Knowledge-Based Benchmarks
+
 *These benchmarks focus on factual knowledge, domain expertise, curriculum-based assessments, and subject-matter competency. They test models' ability to recall and apply knowledge from specific academic domains, cultural contexts, or educational curricula.*
 
 |Language|Date|Title|Tasks|Links|
