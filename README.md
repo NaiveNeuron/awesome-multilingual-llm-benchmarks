@@ -6,22 +6,6 @@ A curated list of multilingual and/or non-English benchmarks for Large Language 
 
 ### Foundational Language Understanding Benchmarks
 
-#### Multilingual
-
-*These benchmarks cover multiple languages and focus on core linguistic competencies such as syntax, semantics, natural language inference, sentiment analysis, named entity recognition, and other fundamental language processing capabilities across different language families.*
-
-|Languages|Date|Title|Tasks|Links|
-|:---:|:---:|:---:|:---:|:---:|
-|African Languages 🌍|2023-11|[AfroBench: How Good are Large Language Models on African Languages?](https://arxiv.org/abs/2311.07978)|Sentiment Analysis, Topic Classification, Named Entity Recognition, Question Answering, Language Identification (64 languages, 15 tasks)|[[paper]](https://arxiv.org/abs/2311.07978)|
-|African Languages 🌍|2024-06|[Uhura: A Synthetic Multilingual Dataset for Instruction Tuning](https://arxiv.org/abs/2406.11096)|Multiple-choice, open-generation, natural language inference (200+ African languages)|[[paper]](https://arxiv.org/abs/2406.11096)|
-|African Languages 🌍|2024-08|[IrokoBench: A New Benchmark for African Languages in the Age of Large Language Models](https://arxiv.org/abs/2408.12388)|Nigerian languages evaluation benchmark (Yoruba, Igbo, Hausa, Pidgin)|[[paper]](https://arxiv.org/abs/2408.12388)|
-|Cross-lingual SEA 🌏|2023-09|[BHASA: A Holistic Southeast Asian Linguistic and Cultural Evaluation Suite (Indonesian, Vietnamese, Thai, Tamil)](https://arxiv.org/abs/2309.06085)|Sentiment Analysis, Named Entity Recognition, Natural Language Inference, Part-of-Speech Tagging, Dependency Parsing|[[paper]](https://arxiv.org/abs/2309.06085)|
-|Indic Languages 🇮🇳|2024-11|[MILU: A Multi-task Indic Language Understanding Benchmark](https://arxiv.org/abs/2411.02538)|Text Classification, Natural Language Inference, Named Entity Recognition, Part-of-Speech Tagging, Sentiment Analysis|[[paper]](https://arxiv.org/abs/2411.02538)|
-|Turkic 🌐|2024-03|[Kardeş-NLU (Azeri, Kazakh, Kyrgyz, Uzbek, Uyghur)](https://aclanthology.org/2024.eacl-long.100.pdf)|NLI, STS, COPA|[[paper]](https://aclanthology.org/2024.eacl-long.100.pdf) [[data]](https://github.com/lksenel/Kardes-NLU)|
-|Nordic/Scandinavian 🌐|2024-02|[ScandEval: Evaluating Large Language Models on Scandinavian Languages](https://arxiv.org/abs/2311.00490)|Sentiment analysis, linguistic acceptability, NER, QA (Danish, Swedish, Norwegian, Icelandic, Faroese)|[[paper]](https://arxiv.org/abs/2311.00490)|
-|Indigenous Americas 🌎|2022-12|[AmericasNLI: Machine translation and natural language inference systems for Indigenous languages of the Americas](https://www.frontiersin.org/articles/10.3389/frai.2022.995667/full)|Natural language inference (Asháninka, Aymara, Bribri, Guarani, Nahuatl, Otomí, Quechua, Rarámuri, Shipibo-Konibo, Wixarika)|[[paper]](https://www.frontiersin.org/articles/10.3389/frai.2022.995667/full)|
-|Language Varieties (281) 🌐|2024-03|[DIALECTBENCH: A Large-scale Benchmark for 281 Language Varieties](https://arxiv.org/abs/2403.11009)|Comprehensive benchmark covering 281 language varieties and dialects worldwide|[[paper]](https://arxiv.org/abs/2403.11009)|
-
 #### Single-Language
 
 *These benchmarks focus on core linguistic competencies for individual languages, testing syntax, semantics, natural language inference, sentiment analysis, named entity recognition, and other fundamental language processing capabilities.*
@@ -61,27 +45,25 @@ A curated list of multilingual and/or non-English benchmarks for Large Language 
 |Basque 🇪🇸|2025-01|[BasqBBQ: A QA Benchmark for Assessing Social Biases in LLMs for Basque](https://aclanthology.org/2025.coling-main.318/)|Social bias assessment in Basque across eight domains|[[paper]](https://aclanthology.org/2025.coling-main.318/)|
 |Yoruba Dialects 🇳🇬|2024-06|[YORULECT: Yoruba Regional Dialects Benchmark](https://arxiv.org/abs/2406.19564)|Regional dialect evaluation across four Yoruba language regions|[[paper]](https://arxiv.org/abs/2406.19564)|
 
-### Holistic Benchmarks
-
-*These benchmarks focus on factual knowledge, domain expertise, curriculum-based assessments, and subject-matter competency. They test models' ability to recall and apply knowledge from specific academic domains, cultural contexts, or educational curricula.*
-
 #### Multilingual
+
+*These benchmarks cover multiple languages and focus on core linguistic competencies such as syntax, semantics, natural language inference, sentiment analysis, named entity recognition, and other fundamental language processing capabilities across different language families.*
 
 |Languages|Date|Title|Tasks|Links|
 |:---:|:---:|:---:|:---:|:---:|
-|29 Languages 🌐|2025-03|[MMLU-ProX: A Multilingual Benchmark for Advanced Large Language Model Evaluation](https://arxiv.org/abs/2503.10497)|Comprehensive multitask language understanding across EN, ZH, JA, KO, FR, DE, ES, PT, AR, TH, HI, BN, SW, and 16 other languages|[[paper]](https://arxiv.org/abs/2503.10497) [[web]](https://mmluprox.github.io/)|
-|17 Languages 🌐|2025-02|[BenchMAX: A Comprehensive Multilingual Evaluation Suite for Large Language Models](https://arxiv.org/abs/2502.07346)|Simple understanding tasks, instruction following, reasoning, long context understanding, code generation|[[paper]](https://arxiv.org/abs/2502.07346)|
-|SEA Languages 🌏|2025-02|[SEA-HELM: Southeast Asian Holistic Evaluation of Language Models](https://arxiv.org/abs/2502.14301)|NLP Classics, LLM-specifics, SEA Linguistics, SEA Culture, Safety (Filipino, Indonesian, Tamil, Thai, Vietnamese)|[[paper]](https://arxiv.org/abs/2502.14301)|
-|SEA Languages 🌏|2025-02|[SeaExam and SeaBench: Benchmarking LLMs with Local Multilingual Questions in Southeast Asia](https://arxiv.org/abs/2502.06298)|STEM, Humanities, Social Sciences, Other subjects (Indonesian, Thai, Vietnamese)|[[paper]](https://arxiv.org/abs/2502.06298)|
-|Global/42 Languages 🌐|2024-12|[Global MMLU: Understanding and Addressing Cultural and Linguistic Biases in Multilingual Evaluation](https://arxiv.org/abs/2412.03304)|Improved MMLU across 42 languages with cultural bias mitigation|[[paper]](https://arxiv.org/abs/2412.03304)|
-|Turkic Languages 🌐|2025-02|[TUMLU: A Unified and Native Language Understanding Benchmark for Turkic Languages](https://arxiv.org/abs/2502.11020)|Comprehensive multilingual benchmark for Turkic language family|[[paper]](https://arxiv.org/abs/2502.11020)|
-|EU20 🇪🇺|2024-05|[EU20-MMLU: A Benchmark for Evaluating Large Language Models in European Languages](https://aclanthology.org/2024.naacl-industry.11)|Multilingual evaluation across 20 European languages|[[paper]](https://aclanthology.org/2024.naacl-industry.11)|
-|Celtic/British Isles 🇬🇧🇮🇪|2024-?|[BritEval: British Isles Languages Benchmark](https://llm.org.uk/)|Scots, Irish, Welsh, Scottish Gaelic evaluation across multiple domains|[[web]](https://llm.org.uk/)|
-|Iberian Languages 🇪🇸🇵🇹|2024-04|[IberBench: LLM Evaluation on Iberian Languages](https://arxiv.org/abs/2504.16921)|101 datasets across 22 task types (Spanish, Portuguese, Catalan, Basque, Galician)|[[paper]](https://arxiv.org/abs/2504.16921)|
-|Multimodal 11 Languages 🌐|2024-03|[EXAMS-V: A Multi-Discipline Multilingual Multimodal Exam Benchmark](https://arxiv.org/abs/2403.10378)|20,932 multiple-choice questions across 11 languages from 7 language families with images, tables, diagrams|[[paper]](https://arxiv.org/abs/2403.10378)|
-|39 Languages Multimodal 🌐|2025-04|[PangeaBench: Multilingual Multimodal Benchmark for 39 Languages](https://arxiv.org/abs/2410.16153)|Holistic evaluation spanning 14 datasets in 47 languages with multimodal capabilities|[[paper]](https://arxiv.org/abs/2410.16153)|
-|Sign Languages 🤟|2024-08|[FLEURS-ASL: Including American Sign Language in Massively Multilingual Evaluation](https://arxiv.org/abs/2408.13585)|American Sign Language extension of FLORES benchmark for multimodal evaluation|[[paper]](https://arxiv.org/abs/2408.13585)|
-|Code-Switching 10 Languages 🌐|2024-06|[Code-Switching Red-Teaming: LLM Safety and Multilingual Understanding](https://arxiv.org/abs/2406.15481)|Safety evaluation with code-switching queries combining up to 10 languages|[[paper]](https://arxiv.org/abs/2406.15481)|
+|African Languages 🌍|2023-11|[AfroBench: How Good are Large Language Models on African Languages?](https://arxiv.org/abs/2311.07978)|Sentiment Analysis, Topic Classification, Named Entity Recognition, Question Answering, Language Identification (64 languages, 15 tasks)|[[paper]](https://arxiv.org/abs/2311.07978)|
+|African Languages 🌍|2024-06|[Uhura: A Synthetic Multilingual Dataset for Instruction Tuning](https://arxiv.org/abs/2406.11096)|Multiple-choice, open-generation, natural language inference (200+ African languages)|[[paper]](https://arxiv.org/abs/2406.11096)|
+|African Languages 🌍|2024-08|[IrokoBench: A New Benchmark for African Languages in the Age of Large Language Models](https://arxiv.org/abs/2408.12388)|Nigerian languages evaluation benchmark (Yoruba, Igbo, Hausa, Pidgin)|[[paper]](https://arxiv.org/abs/2408.12388)|
+|Cross-lingual SEA 🌏|2023-09|[BHASA: A Holistic Southeast Asian Linguistic and Cultural Evaluation Suite (Indonesian, Vietnamese, Thai, Tamil)](https://arxiv.org/abs/2309.06085)|Sentiment Analysis, Named Entity Recognition, Natural Language Inference, Part-of-Speech Tagging, Dependency Parsing|[[paper]](https://arxiv.org/abs/2309.06085)|
+|Indic Languages 🇮🇳|2024-11|[MILU: A Multi-task Indic Language Understanding Benchmark](https://arxiv.org/abs/2411.02538)|Text Classification, Natural Language Inference, Named Entity Recognition, Part-of-Speech Tagging, Sentiment Analysis|[[paper]](https://arxiv.org/abs/2411.02538)|
+|Turkic 🌐|2024-03|[Kardeş-NLU (Azeri, Kazakh, Kyrgyz, Uzbek, Uyghur)](https://aclanthology.org/2024.eacl-long.100.pdf)|NLI, STS, COPA|[[paper]](https://aclanthology.org/2024.eacl-long.100.pdf) [[data]](https://github.com/lksenel/Kardes-NLU)|
+|Nordic/Scandinavian 🌐|2024-02|[ScandEval: Evaluating Large Language Models on Scandinavian Languages](https://arxiv.org/abs/2311.00490)|Sentiment analysis, linguistic acceptability, NER, QA (Danish, Swedish, Norwegian, Icelandic, Faroese)|[[paper]](https://arxiv.org/abs/2311.00490)|
+|Indigenous Americas 🌎|2022-12|[AmericasNLI: Machine translation and natural language inference systems for Indigenous languages of the Americas](https://www.frontiersin.org/articles/10.3389/frai.2022.995667/full)|Natural language inference (Asháninka, Aymara, Bribri, Guarani, Nahuatl, Otomí, Quechua, Rarámuri, Shipibo-Konibo, Wixarika)|[[paper]](https://www.frontiersin.org/articles/10.3389/frai.2022.995667/full)|
+|Language Varieties (281) 🌐|2024-03|[DIALECTBENCH: A Large-scale Benchmark for 281 Language Varieties](https://arxiv.org/abs/2403.11009)|Comprehensive benchmark covering 281 language varieties and dialects worldwide|[[paper]](https://arxiv.org/abs/2403.11009)|
+
+### Holistic Benchmarks
+
+*These benchmarks focus on factual knowledge, domain expertise, curriculum-based assessments, and subject-matter competency. They test models' ability to recall and apply knowledge from specific academic domains, cultural contexts, or educational curricula.*
 
 #### Single-Language
 
@@ -120,3 +102,21 @@ A curated list of multilingual and/or non-English benchmarks for Large Language 
 |Swahili 🇰🇪🇹🇿|2024-07|[SwahBERT: Language Model of Swahili](https://arxiv.org/abs/2407.11468)|Swahili NLP benchmark with multiple evaluation tasks|[[paper]](https://arxiv.org/abs/2407.11468)|
 |Turkish 🇹🇷|2024-12|[TR-MMLU: Setting Standards in Turkish NLP for Large Language Model Evaluation](https://arxiv.org/abs/2501.00593)|Turkish adaptation of MMLU covering diverse academic subjects|[[paper]](https://arxiv.org/abs/2501.00593)|
 |Yoruba 🇳🇬|2024-05|[YorùbáLLM: A Large Language Model for Yorùbá Language](https://arxiv.org/abs/2405.04418)|Yoruba language understanding benchmark with cultural context|[[paper]](https://arxiv.org/abs/2405.04418)|
+
+#### Multilingual
+
+|Languages|Date|Title|Tasks|Links|
+|:---:|:---:|:---:|:---:|:---:|
+|29 Languages 🌐|2025-03|[MMLU-ProX: A Multilingual Benchmark for Advanced Large Language Model Evaluation](https://arxiv.org/abs/2503.10497)|Comprehensive multitask language understanding across EN, ZH, JA, KO, FR, DE, ES, PT, AR, TH, HI, BN, SW, and 16 other languages|[[paper]](https://arxiv.org/abs/2503.10497) [[web]](https://mmluprox.github.io/)|
+|17 Languages 🌐|2025-02|[BenchMAX: A Comprehensive Multilingual Evaluation Suite for Large Language Models](https://arxiv.org/abs/2502.07346)|Simple understanding tasks, instruction following, reasoning, long context understanding, code generation|[[paper]](https://arxiv.org/abs/2502.07346)|
+|SEA Languages 🌏|2025-02|[SEA-HELM: Southeast Asian Holistic Evaluation of Language Models](https://arxiv.org/abs/2502.14301)|NLP Classics, LLM-specifics, SEA Linguistics, SEA Culture, Safety (Filipino, Indonesian, Tamil, Thai, Vietnamese)|[[paper]](https://arxiv.org/abs/2502.14301)|
+|SEA Languages 🌏|2025-02|[SeaExam and SeaBench: Benchmarking LLMs with Local Multilingual Questions in Southeast Asia](https://arxiv.org/abs/2502.06298)|STEM, Humanities, Social Sciences, Other subjects (Indonesian, Thai, Vietnamese)|[[paper]](https://arxiv.org/abs/2502.06298)|
+|Global/42 Languages 🌐|2024-12|[Global MMLU: Understanding and Addressing Cultural and Linguistic Biases in Multilingual Evaluation](https://arxiv.org/abs/2412.03304)|Improved MMLU across 42 languages with cultural bias mitigation|[[paper]](https://arxiv.org/abs/2412.03304)|
+|Turkic Languages 🌐|2025-02|[TUMLU: A Unified and Native Language Understanding Benchmark for Turkic Languages](https://arxiv.org/abs/2502.11020)|Comprehensive multilingual benchmark for Turkic language family|[[paper]](https://arxiv.org/abs/2502.11020)|
+|EU20 🇪🇺|2024-05|[EU20-MMLU: A Benchmark for Evaluating Large Language Models in European Languages](https://aclanthology.org/2024.naacl-industry.11)|Multilingual evaluation across 20 European languages|[[paper]](https://aclanthology.org/2024.naacl-industry.11)|
+|Celtic/British Isles 🇬🇧🇮🇪|2024-?|[BritEval: British Isles Languages Benchmark](https://llm.org.uk/)|Scots, Irish, Welsh, Scottish Gaelic evaluation across multiple domains|[[web]](https://llm.org.uk/)|
+|Iberian Languages 🇪🇸🇵🇹|2024-04|[IberBench: LLM Evaluation on Iberian Languages](https://arxiv.org/abs/2504.16921)|101 datasets across 22 task types (Spanish, Portuguese, Catalan, Basque, Galician)|[[paper]](https://arxiv.org/abs/2504.16921)|
+|Multimodal 11 Languages 🌐|2024-03|[EXAMS-V: A Multi-Discipline Multilingual Multimodal Exam Benchmark](https://arxiv.org/abs/2403.10378)|20,932 multiple-choice questions across 11 languages from 7 language families with images, tables, diagrams|[[paper]](https://arxiv.org/abs/2403.10378)|
+|39 Languages Multimodal 🌐|2025-04|[PangeaBench: Multilingual Multimodal Benchmark for 39 Languages](https://arxiv.org/abs/2410.16153)|Holistic evaluation spanning 14 datasets in 47 languages with multimodal capabilities|[[paper]](https://arxiv.org/abs/2410.16153)|
+|Sign Languages 🤟|2024-08|[FLEURS-ASL: Including American Sign Language in Massively Multilingual Evaluation](https://arxiv.org/abs/2408.13585)|American Sign Language extension of FLORES benchmark for multimodal evaluation|[[paper]](https://arxiv.org/abs/2408.13585)|
+|Code-Switching 10 Languages 🌐|2024-06|[Code-Switching Red-Teaming: LLM Safety and Multilingual Understanding](https://arxiv.org/abs/2406.15481)|Safety evaluation with code-switching queries combining up to 10 languages|[[paper]](https://arxiv.org/abs/2406.15481)|
