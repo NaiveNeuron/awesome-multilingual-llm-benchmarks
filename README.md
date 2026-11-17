@@ -64,6 +64,7 @@ A curated list of multilingual and/or non-English benchmarks for Large Language 
 |Language Varieties (281) 🌐|2024-03|[DialectBench: A NLP Benchmark for Dialects, Varieties, and Closely-Related Languages](https://arxiv.org/abs/2403.11009)|Comprehensive benchmark covering 281 language varieties and dialects worldwide|[[paper]](https://arxiv.org/abs/2403.11009)|
 |Indic Languages 🇮🇳|2025-04|[INDIC QA BENCHMARK: A Multilingual Benchmark to Evaluate Question Answering capability of LLMs for Indic Languages](https://aclanthology.org/2025.findings-naacl.141/)|Question answering across multiple Indic languages|[[paper]](https://aclanthology.org/2025.findings-naacl.141/)|
 |Text Embeddings 🌐|2025-02|[MMTEB: Massive Multilingual Text Embedding Benchmark](https://arxiv.org/abs/2502.13595)|Massive multilingual text embedding evaluation across many languages|[[paper]](https://arxiv.org/abs/2502.13595)|
+|Celtic & English L1 Tutoring (ga, cy, gd, gv, br, kw; pt, es, vi, ja)|2026-11|[Teanga Bench: Language Tutor Benchmark for Celtic Languages and English L1 Tutoring](https://research.blasapp.com)|Morphology, Lesson Exercises, Translation (chrF++), Round-Trip Translation, Learner Error Correction & Tutor Explanations|[[site]](https://research.blasapp.com) [[tonada]](https://research.tonadaapp.com) [[code]](https://github.com/johnway114/teanga-bench)|
 
 ### Holistic Benchmarks
 
